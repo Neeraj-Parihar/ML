@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
-# Load a real-life housing dataset (you can replace this with your own dataset)
+# Load a real-life housing dataset
 data = pd.read_csv('housing_dataset.csv')  # Load your dataset here
 
 # Select relevant features and the target variable
