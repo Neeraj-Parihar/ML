@@ -5,12 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Generate or load your dataset (replace this with your own data)
-data = {
-    'Bedrooms': [2, 3, 4, 2, 3, 4, 3, 4, 5, 5],
-    'SquareFootage': [1200, 1500, 1800, 1000, 1400, 1600, 1300, 1700, 2000, 2100],
-    'AgeOfHouse': [5, 10, 15, 2, 8, 12, 6, 11, 16, 18],
-    'Price': [220000, 300000, 350000, 200000, 280000, 320000, 290000, 340000, 400000, 420000]
-}
+data = pd.read_csv('housing_dataset.csv') 
 
 df = pd.DataFrame(data)
 
