@@ -6,6 +6,6 @@ It includes python codes of regression like :
 3. polynomial_regression
 4. Logistic_regression
 
-. Confusion_matrix \n
-. k means clustering  \n
-. Neural network \n
+. Confusion_matrix 
+. k means clustering  
+. Neural network 
